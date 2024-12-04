@@ -1,0 +1,149 @@
+* {
+
+}
+
+html, body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Pastikan tinggi halaman penuh */
+    width: 100%; /* Pastikan lebar halaman penuh */
+    overflow-x: hidden; /* Pastikan tidak ada scroll horizontal */
+    
+}
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bg1{
+    background-color: #8D6E63;
+}
+
+.nav-link, .nav-item {
+    font-family: 'Poppins';
+}
+
+.button-login {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    background-color: #8D6E63;
+    border-color: #4E342E;
+    border-width: 2px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.button-register {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    background-color: #8D6E63;
+    border-color: #4E342E;
+    border-width: 2px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.banner {
+    background-image: url('/Images_Library/library2.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.guesthouse {
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    height: 100%;
+}
+.guesthouse h1{
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    padding-top: 140px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#katalog {
+    background-color: #8D6E63;
+    height: 100vh;
+    justify-content: center;
+}
+
+.pencarian-katalog {
+    background-color: #4E342E;
+    height: 40vh;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid { 
+    padding: 0 !important;
+}
+
+.login {
+    background: url('Images_Library/book1.jpeg') no-repeat center center;
+    background-size: cover; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Menambahkan efek bayangan */
+    border: 2px solid #ccc;
+}
+
+.category-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+.category-box:hover {
+    transform: scale(1.05);
+}
+
+.category-box i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.category-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.category-container {
+    margin-top: 50px;
+}
